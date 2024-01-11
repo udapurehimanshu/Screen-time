@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Time spending</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Mobiletime spending Survey</h2>
+    <form id="surveyForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <p>to get the exact time use digital-wellbing</p>
+      <div class="form-group">
+        <label for="frequency">Frequency of Watching Mobile:</label>
+        <select id="frequency" name="frequency" required>
+          <option value="">Select</option>
+          <option value="more than 5hrs">more than 5hrs</option>
+          <option value="3-4hrs">3-4hrs</option>
+          <option value="1-2hrs">1-2hrs</option>
+          <option value="Less than 1hrs">Less than 1hrs</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="ads">Which types of apps do you use more frequently?</label>
+        <select id="ads" name="ads" required>
+          <option value="">Select</option>
+          <option value="Product Ad">Instagram</option>
+          <option value="Service Ad">Social Media </option>
+          <option value="Food and Beverage Ad">Food and Beverage</option>
+          <option value="Technology Ad">Technical Platform</option>
+          <option value="Entertainment Ad">Ott's</option>
+          <option value="Travel Ad">Travel booking</option>
+          <option value="Automotive Ad">Automation</option>
+          <option value="Fashion and Beauty Ad">Fashion and Beauty </option>
+          <option value="Health and Fitness Ad">Health and Fitness </option>
+          <option value="Others">Others</option>
+        </select>
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
